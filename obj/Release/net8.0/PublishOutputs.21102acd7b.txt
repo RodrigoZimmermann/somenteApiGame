@@ -1,0 +1,12 @@
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\somenteApiGame.exe
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\somenteApiGame.dll
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\somenteApiGame.deps.json
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\somenteApiGame.runtimeconfig.json
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\somenteApiGame.pdb
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rodri\source\repos\somenteApiGame\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
