@@ -1,12 +1,5 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System.Collections.Generic;
-using System.Linq;
-
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(builder =>
@@ -33,7 +26,6 @@ app.UseCors();
 var perguntas = new List<Pergunta>();
 var respostas = new List<Resposta>();
 
-// Mapeamento de rotas
 app.MapPost("/api/pergunta", (Pergunta pergunta) =>
 {
     pergunta.Id = perguntas.Any() ? perguntas.Max(p => p.Id) + 1 : 1;
@@ -128,6 +120,12 @@ app.MapGet("/api/pergunta/maxid", () =>
     return Results.Ok(maxId);
 });
 
+app.MapGet("/api/resposta/maxid/{alunoId}", (int alunoId) =>
+{
+    var maxId = respostas.Where(r => r.AlunoId == alunoId).Any() ? respostas.Where(r => r.AlunoId == alunoId).Max(r => r.Id) : 0;
+    return Results.Ok(maxId);
+});
+
 app.Run();
 
 public class Pergunta
@@ -140,6 +138,6 @@ public class Pergunta
 public class Resposta
 {
     public int Id { get; set; }
-    public string Answer { get; set; }
+    public int Answer { get; set; }
     public int AlunoId { get; set; }
 }
